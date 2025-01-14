@@ -33,6 +33,7 @@ ENV/
 env/
 .env
 .venv
+venv
 
 # VS Code
 .vscode/
