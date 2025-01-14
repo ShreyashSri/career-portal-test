@@ -26,3 +26,4 @@ tzdata==2024.2
 urllib3==2.2.3
 vue==0.0.1
 gunicorn
+djongo

@@ -59,7 +59,7 @@ DATABASES = {
         'NAME': 'career_portal_db',
         'ENFORCE_SCHEMA': False,
         'CLIENT': {
-            'host': 'mongodb://localhost:27017'
+            'host': 'mongodb+srv://ShreyashSri:ggwp@cluster0.mongodb.net/career_portal_db?retryWrites=true&w=majority'
         }
     }
 }
