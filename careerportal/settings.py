@@ -1,5 +1,5 @@
 from pathlib import Path
-import ssl
+import certifi
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -64,7 +64,11 @@ DATABASES = {
             'host': 'mongodb+srv://ShreyashSri:ggwp@cluster0.bbhp0.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0',
             'username':"ShreyashSri",
             'password':"ggwp",
-        'ssl_cert_reqs': ssl.CERT_NONE,
+            'tlsCAFile': certifi.where(),
+        },
+        'OPTIONS': {
+            'ssl': True,  # Enable SSL
+            'ssl_cert_reqs': 'CERT_NONE',  # Disable certificate validation (if needed)
         }
     }
 }
