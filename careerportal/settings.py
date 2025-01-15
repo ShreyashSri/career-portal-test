@@ -10,7 +10,7 @@ SECRET_KEY = 'django-insecure-cq84w)m97)f&tfsb&&h52m#ud+%2)$+4y42u2vkzvc40p12kos
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['careerportal.onrender.com', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['career-portal-b9uu.onrender.com', 'localhost', '127.0.0.1']
 
 # Application definition
 INSTALLED_APPS = [
