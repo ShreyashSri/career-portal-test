@@ -9,7 +9,7 @@ SECRET_KEY = 'django-insecure-cq84w)m97)f&tfsb&&h52m#ud+%2)$+4y42u2vkzvc40p12kos
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['careerportal.onrender.com', 'localhost', '127.0.0.1']
 
 # Application definition
 INSTALLED_APPS = [
@@ -62,7 +62,6 @@ DATABASES = {
             'host': 'mongodb+srv://ShreyashSri:ggwp@cluster0.bbhp0.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0',
             'username':"ShreyashSri",
             'password':"ggwp"
-    
         }
     }
 }
@@ -101,3 +100,5 @@ MEDIA_URL = '/media/'
 MEDIA_ROOT = BASE_DIR / 'media'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+SESSION_ENGINE = 'django.contrib.sessions.backends.db'
