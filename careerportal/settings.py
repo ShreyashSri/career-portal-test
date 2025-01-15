@@ -1,4 +1,5 @@
 from pathlib import Path
+import ssl
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -62,7 +63,8 @@ DATABASES = {
         'CLIENT': {
             'host': 'mongodb+srv://ShreyashSri:ggwp@cluster0.bbhp0.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0',
             'username':"ShreyashSri",
-            'password':"ggwp"
+            'password':"ggwp",
+        'ssl_cert_reqs': ssl.CERT_NONE,
         }
     }
 }
