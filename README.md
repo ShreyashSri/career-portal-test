@@ -1,4 +1,4 @@
-# Career Portal
+# Career Portal1
 
 A comprehensive Django-based career portal for managing job opportunities, internships, and hackathons. The platform helps students and job seekers track applications, manage activity points, and prepare for interviews through mock tests.
 
@@ -30,7 +30,7 @@ A comprehensive Django-based career portal for managing job opportunities, inter
 
 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/career-portal.git
+git clone https://github.com/yourusername/career-portal1.git
 cd career-portal
 ```
 
@@ -70,7 +70,7 @@ python manage.py runserver
 ## Project Structure
 
 ```
-career-portal/
+career-portal1/
 ├── career/
 │   ├── migrations/
 │   ├── templates/
